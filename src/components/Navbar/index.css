@@ -1,0 +1,54 @@
+.navbar-container {
+  background-color: #2c0e3a;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.score-and-time-container {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.website-logo {
+  width: 130px;
+}
+.score-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 2px;
+}
+.score-li-cont {
+  margin-top: 20px;
+}
+.span {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #fec653;
+  font-weight: 500;
+}
+.timer-cont {
+  display: flex;
+  align-items: center;
+}
+.timer {
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 567px) {
+  .navbar-container {
+    padding: 10px 80px;
+  }
+  .website-logo {
+    width: 150px;
+  }
+  .score-text {
+    font-size: 15px;
+  }
+}

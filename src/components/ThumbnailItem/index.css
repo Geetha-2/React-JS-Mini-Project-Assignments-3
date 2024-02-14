@@ -1,0 +1,26 @@
+.thumbnail-list-container {
+  margin-right: 8px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.thumbnail-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+.thumbnail-image {
+  height: 85px;
+  width: 85px;
+}
+@media screen and (min-width: 567px) {
+  .thumbnail-list-container {
+    margin-right: 12px;
+    margin-bottom: 16px;
+  }
+  .thumbnail-image {
+    height: 100px;
+    width: 100px;
+  }
+}
